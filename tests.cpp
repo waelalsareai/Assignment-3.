@@ -24,6 +24,9 @@ int getArea(int width, int length) {
     return width * length;
 }
 
+int getVolume(int width, int length, int height) {
+    return width * length * height;
+}
 
 ///----------------------------------------------------------------------------------
 /// Tests
