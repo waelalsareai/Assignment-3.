@@ -32,11 +32,11 @@ int getArea(int width, int length) {
 /// on (uncommented), even if the test fails.
 ///----------------------------------------------------------------------------------
 
-//TEST_CASE( "getArea" ) {
-//    cout << "1: getArea" << endl;
-//    CHECK( getArea(2, 4) == 8 );
-//    CHECK( getArea(12, 7) == 84 );
-//}
+TEST_CASE( "getArea" ) {
+    cout << "1: getArea" << endl;
+    CHECK( getArea(2, 4) == 8 );
+    CHECK( getArea(12, 7) == 84 );
+}
 
 //TEST_CASE( "getVolume" ) {
 //    cout << "2: getVolume" << endl;
