@@ -41,11 +41,11 @@ TEST_CASE( "getArea" ) {
     CHECK( getArea(12, 7) == 84 );
 }
 
-//TEST_CASE( "getVolume" ) {
-//    cout << "2: getVolume" << endl;
-//    CHECK( getVolume(2, 4, 3) == 24 );
-//    CHECK( getVolume(12, 7, 2) == 168 );
-//}
+TEST_CASE( "getVolume" ) {
+    cout << "2: getVolume" << endl;
+    CHECK( getVolume(2, 4, 3) == 24 );
+    CHECK( getVolume(12, 7, 2) == 168 );
+}
 
 //TEST_CASE( "leftoverCardboard" ) {
 //    cout << "3: leftoverCardboard" << endl;
