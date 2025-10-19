@@ -20,7 +20,9 @@ using doctest::Approx;
 using namespace std;
 
 //Your functions here
-
+int getArea(int width, int length) {
+    return width * length;
+}
 
 
 ///----------------------------------------------------------------------------------
