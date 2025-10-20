@@ -31,3 +31,22 @@ If everything works, you will see all five functions print out results:
 3.leftovercardboard
 4.getmaxheight
 5.bowLength
+
+## Work Log
+**Day 1 (October 19th):**
+-Created new repisitory using unit test project template
+-Set up functions for getarea, getvolume, and leftovercardboard
+-Fixed a few compile errors and ran first tests successfully
+
+**Day 2 (October 20th):**
+-Added getmaxheight and bowlength functions.
+-Updated Readme with final details and test instructions
+-Synced all changes to github and verified work log timeline
+
+---
+
+##Author
+**Name:** Wael Alsareai
+**Course:** Cs 161
+**Assignment #:** Assignment number 3 (Boxes)
+**Date:** October 20th 2025
