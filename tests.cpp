@@ -53,18 +53,18 @@ TEST_CASE( "getVolume" ) {
     CHECK( getVolume(12, 7, 2) == 168 );
 }
 
-//TEST_CASE( "leftoverCardboard" ) {
+TEST_CASE( "leftoverCardboard" ) {
 //    cout << "3: leftoverCardboard" << endl;
 //    CHECK( leftoverCardboard(3) == 36 );
 //    CHECK( leftoverCardboard(10) == 400 );
 //}
 
-//TEST_CASE( "getMaxHeight" ) {
-//    cout << "4: getMaxHeight" << endl;
-//    CHECK( getMaxHeight(5, 10) == 2 );
-//    CHECK( getMaxHeight(10, 5) == 2 );
-//    CHECK( getMaxHeight(12, 16) == 5 );
-//    CHECK( getMaxHeight(18, 16) == 7 );
-//}
+TEST_CASE( "getMaxHeight" ) {
+    cout << "4: getMaxHeight" << endl;
+    CHECK( getMaxHeight(5, 10) == 2 );
+    CHECK( getMaxHeight(10, 5) == 2 );
+    CHECK( getMaxHeight(12, 16) == 5 );
+    CHECK( getMaxHeight(18, 16) == 7 );
+}
 
 //Add your own test case for bowLength here
