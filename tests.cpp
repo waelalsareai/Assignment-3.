@@ -27,6 +27,7 @@ int getArea(int width, int length) {
 int getVolume(int width, int length, int height) {
     return width * length * height;
 }
+
 int leftoverCardboard(int cutoutSize)
 {
     // Four corner squares of size x by x are removed
