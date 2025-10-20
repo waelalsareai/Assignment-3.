@@ -77,3 +77,7 @@ TEST_CASE( "getMaxHeight" ) {
 //Add your own test case for bowLength here
 TEST_CASE("bowlength"){
     cout << "5: bowLength" << end1;
+    CHECK(bowLength(4, 3) == 26);
+    CHECK(bowLength(2, 2) == 20);
+    CHECK(bowLength(10, 5) == 42);
+}
