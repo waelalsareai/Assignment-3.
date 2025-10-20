@@ -76,5 +76,4 @@ TEST_CASE( "getMaxHeight" ) {
 
 //Add your own test case for bowLength here
 TEST_CASE("bowlength"){
-    cout << "5: bowlength" << end;
-    
+    cout << "5: bowLength" << end1;
