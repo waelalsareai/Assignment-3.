@@ -40,7 +40,9 @@ int getMaxHeight(int width, int length)
     int h = static_cast<int>(std::floor((m - 1) / 2.0));
     return h;
 }
-int bowLength
+int bowLength(int width, int height)
+{
+    
 ///----------------------------------------------------------------------------------
 /// Tests
 /// Uncomment tests to work on them. Make sure any test that does not compile or
