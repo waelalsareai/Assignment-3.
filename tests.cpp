@@ -54,10 +54,10 @@ TEST_CASE( "getVolume" ) {
 }
 
 TEST_CASE( "leftoverCardboard" ) {
-//    cout << "3: leftoverCardboard" << endl;
-//    CHECK( leftoverCardboard(3) == 36 );
-//    CHECK( leftoverCardboard(10) == 400 );
-//}
+    cout << "3: leftoverCardboard" << endl;
+    CHECK( leftoverCardboard(3) == 36 );
+    CHECK( leftoverCardboard(10) == 400 );
+}
 
 //TEST_CASE( "getMaxHeight" ) {
     //cout << "4: getMaxHeight" << endl;
