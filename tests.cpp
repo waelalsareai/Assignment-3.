@@ -42,7 +42,10 @@ int getMaxHeight(int width, int length)
 }
 int bowLength(int width, int height)
 {
-    //
+    //The bow wraps around the width and height of the box,
+    //plus an extra 12 inches for trying
+    return 2* (width + height) + 12;
+}   
 ///----------------------------------------------------------------------------------
 /// Tests
 /// Uncomment tests to work on them. Make sure any test that does not compile or
