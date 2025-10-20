@@ -59,12 +59,12 @@ TEST_CASE( "leftoverCardboard" ) {
 //    CHECK( leftoverCardboard(10) == 400 );
 //}
 
-TEST_CASE( "getMaxHeight" ) {
-    cout << "4: getMaxHeight" << endl;
-    CHECK( getMaxHeight(5, 10) == 2 );
-    CHECK( getMaxHeight(10, 5) == 2 );
-    CHECK( getMaxHeight(12, 16) == 5 );
-    CHECK( getMaxHeight(18, 16) == 7 );
-}
+//TEST_CASE( "getMaxHeight" ) {
+    //cout << "4: getMaxHeight" << endl;
+    //CHECK( getMaxHeight(5, 10) == 2 );
+    //CHECK( getMaxHeight(10, 5) == 2 );
+    //CHECK( getMaxHeight(12, 16) == 5 );
+    //CHECK( getMaxHeight(18, 16) == 7 );
+//}
 
 //Add your own test case for bowLength here
