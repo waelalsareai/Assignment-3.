@@ -42,7 +42,7 @@ int getMaxHeight(int width, int length)
 }
 int bowLength(int width, int height)
 {
-    
+    //
 ///----------------------------------------------------------------------------------
 /// Tests
 /// Uncomment tests to work on them. Make sure any test that does not compile or
